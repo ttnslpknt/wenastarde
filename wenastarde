@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página web básica</title>
+	<meta charset="UTF-8">
+	<style>
+		#message {
+			font-size: 36px;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.button {
+			display: block;
+			margin: 0 auto;
+			padding: 10px 20px;
+			font-size: 18px;
+			border: 2px solid black;
+			border-radius: 5px;
+			text-align: center;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="message">jp marikon</div>
+	<div id="options">
+		<button class="button" onclick="yes()">Si</button>
+		<button class="button" onclick="no()">No</button>
+	</div>
+	<script>
+		function yes() {
+			window.open("https://www.google.com/search?q=y+t%C3%BA+tambi%C3%A9n");
+		}
+		
+		function no() {
+			alert("Hasta siempre, querido familiar.");
+		}
+	</script>
+</body>
+</html>
